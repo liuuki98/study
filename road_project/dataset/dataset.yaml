@@ -10,6 +10,10 @@
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 
+#服务器上的配置
+#path: /mnt/workspace/study/road_project/dataset
+#train: images/train
+#val: images/val
 
 path: D:\code\dataset\road
 train: images/train # train images (relative to 'path') 4 images
@@ -18,4 +22,5 @@ test: # test images (optional)
 
 nc: 9
 
-names: ["Crack", "Manhole", "Net", "Pothole", "Patch-Crack", "Patch-Net", "Patch-Pothole", "other", "Other"]
+names: ["Crack", "Manhole", "Net", "Pothole", \
+        "Patch-Crack", "Patch-Net", "Patch-Pothole", "other", "Other"]
